@@ -862,21 +862,20 @@ body {
   padding-left: 42px;
 }
 
-.modal-form-input-wrapperr {
+.modal-form-input-wrapper {
   position: relative;
 }
 
 .modal-form-input-icon {
   position: absolute;
+  display: block;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
-  display: block;
-  width: 18px;
-  height: 18px;
+  
+  
   color: var(--primary-text-color-dark);
 }
-
 
 
 
