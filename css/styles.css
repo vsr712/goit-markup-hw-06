@@ -631,6 +631,86 @@ body {
   width: 231px;
 }
 
+.title-subscription {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color-light);
+  margin-bottom: 20px;
+}
+
+.form-footer {
+  display: flex;
+  align-items: baseline;
+  column-gap: 12px;
+  margin-left: auto;
+}
+
+
+
+.form-input-footer {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: #2F303A;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: border var(--transition-dur-and-func);
+  cursor: pointer;
+  
+}
+
+.form-input-footer:focus {
+  outline: none;
+  border: 1px solid var(--aczent-font);
+}
+
+.form-input-footer::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-submit-footer {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  color: var(--primary-text-color-light);
+  background-color: var(--aczent-font);
+  border-radius: 4px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+}
+
+.form-submit-footer:hover,
+.form-submit-footer:focus {
+  background-color: var(--aczent-font-active);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.send-icon {
+  margin-left: 10px;
+}
+
+
+
+
+
 /*==========/footer==========*/
 
 /*==========main-portfolio==========*/
@@ -897,6 +977,7 @@ body {
   padding: 12px 16px;
   resize: none;
   transition: border-color var(--transition-dur-and-func);
+  text-transform: #000000;
 }
 
 .modal-form-message::placeholder {
@@ -907,11 +988,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  
 }
 
 .modal-form-message:focus {
   outline: none;
   border-color: var(--aczent-font);
+ 
 }
 
 .modal-form-own-checkbox {
